@@ -3,8 +3,8 @@ import time
 from telegram import Bot
 
 # Your Telegram bot token
-TOKEN = 'Popcat token listing'
-CHAT_ID = 'JBNewExchangeListings'  # Your Telegram chat ID or group ID
+TOKEN = 'popcat listings'
+CHAT_ID = 'https://t.me/JBNewExchangeListingsBot'  # Your Telegram chat ID or group ID
 COIN_ID = 'popcat'  # CoinGecko ID for the coin you're interested in
 
 # Initialize the Telegram bot
