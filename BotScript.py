@@ -1,10 +1,15 @@
+import telegram
+
+bot = telegram.Bot(token='popcat listings')
+bot.send_message(chat_id='JBNewExchangeListingsBot', text="Hello from your bot!")
+
 import requests
 import time
 from telegram import Bot
 
 # Your Telegram bot token
 TOKEN = 'popcat listings'
-CHAT_ID = 'https://t.me/JBNewExchangeListingsBot'  # Your Telegram chat ID or group ID
+CHAT_ID = 'JBNewExchangeListingsBot'  # Your Telegram chat ID or group ID
 COIN_ID = 'popcat'  # CoinGecko ID for the coin you're interested in
 
 # Initialize the Telegram bot
